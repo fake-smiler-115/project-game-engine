@@ -1,0 +1,16 @@
+{
+  "1": {
+    "name": "User1",
+    "money": 100,
+    "tiles": [],
+    "stocks": {
+      "sackson": 0,
+      "tower": 3,
+      "american": 0,
+      "festival": 0,
+      "worldwide": 0,
+      "continental": 0,
+      "imperial": 0
+    }
+  }
+}

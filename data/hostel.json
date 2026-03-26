@@ -5,25 +5,25 @@
     "type": "small",
     "SourceTile": ""
   },
-  "Tower": {
+  "tower": {
     "tiles": [],
     "isStable": false,
     "type": "small",
     "SourceTile": ""
   },
-  "American": {
+  "american": {
     "tiles": [],
     "isStable": false,
     "type": "medium",
     "SourceTile": ""
   },
-  "Festival": {
+  "festival": {
     "tiles": [],
     "isStable": false,
     "type": "medium",
     "SourceTile": ""
   },
-  "Worldwide": {
+  "worldwide": {
     "tiles": [],
     "isStable": false,
     "type": "medium",
@@ -35,7 +35,7 @@
     "type": "Large",
     "SourceTile": ""
   },
-  "Imperial": {
+  "imperial": {
     "tiles": [],
     "isStable": false,
     "type": "Large",
