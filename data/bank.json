@@ -1,0 +1,30 @@
+{
+  "sackson": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "tower": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "american": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "festival": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "worldwide": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "continental": {
+    "isActive": false,
+    "stocks": 25
+  },
+  "imperial": {
+    "isActive": false,
+    "stocks": 25
+  }
+}
