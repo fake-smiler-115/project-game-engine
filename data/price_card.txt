@@ -1,0 +1,1 @@
+Price card data will be generated using javascript.
