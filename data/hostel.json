@@ -1,0 +1,44 @@
+{
+  "sackson": {
+    "tiles": [],
+    "isStable": false,
+    "type": "small",
+    "SourceTile": ""
+  },
+  "Tower": {
+    "tiles": [],
+    "isStable": false,
+    "type": "small",
+    "SourceTile": ""
+  },
+  "American": {
+    "tiles": [],
+    "isStable": false,
+    "type": "medium",
+    "SourceTile": ""
+  },
+  "Festival": {
+    "tiles": [],
+    "isStable": false,
+    "type": "medium",
+    "SourceTile": ""
+  },
+  "Worldwide": {
+    "tiles": [],
+    "isStable": false,
+    "type": "medium",
+    "SourceTile": ""
+  },
+  "continental": {
+    "tiles": [],
+    "isStable": false,
+    "type": "Large",
+    "SourceTile": ""
+  },
+  "Imperial": {
+    "tiles": [],
+    "isStable": false,
+    "type": "Large",
+    "SourceTile": ""
+  }
+}
