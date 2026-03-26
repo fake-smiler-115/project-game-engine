@@ -1,0 +1,6 @@
+{
+  "1A": {
+    "isOccupied": false,
+    "adjacentTiles": ["", "2A", "1B", ""]
+  }
+}
