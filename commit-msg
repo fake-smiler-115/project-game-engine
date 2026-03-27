@@ -1,7 +1,0 @@
-#!/bin/bash
-
-$FILE=$1
-$MSG=$("cat" "$FILE");
-$STORY="";
-$NAME="Gopi";
-echo ""

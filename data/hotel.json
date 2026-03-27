@@ -1,44 +1,37 @@
 {
   "sackson": {
     "tiles": [],
-    "isStable": false,
     "type": "small",
-    "SourceTile": ""
+    "origin": ""
   },
   "tower": {
     "tiles": [],
-    "isStable": false,
     "type": "small",
-    "SourceTile": ""
+    "origin": ""
   },
   "american": {
     "tiles": [],
-    "isStable": false,
     "type": "medium",
-    "SourceTile": ""
+    "origin": ""
   },
   "festival": {
     "tiles": [],
-    "isStable": false,
     "type": "medium",
-    "SourceTile": ""
+    "origin": ""
   },
   "worldwide": {
     "tiles": [],
-    "isStable": false,
     "type": "medium",
-    "SourceTile": ""
+    "origin": ""
   },
   "continental": {
     "tiles": [],
-    "isStable": false,
     "type": "Large",
-    "SourceTile": ""
+    "origin": ""
   },
   "imperial": {
     "tiles": [],
-    "isStable": false,
     "type": "Large",
-    "SourceTile": ""
+    "origin": ""
   }
 }
