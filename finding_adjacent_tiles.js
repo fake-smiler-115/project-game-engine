@@ -1,19 +1,23 @@
-const data = {
-  '1A': { isOccupied: true, adjacentTiles: ['2A', '1B'] },
-  '2A': { isOccupied: true, adjacentTiles: ['1A', '2B',] },
-  '1B': { isOccupied: false, adjacentTiles: ['1A'] },
-  '2B': { isOccupied: true, adjacentTiles: ['1A'] },
-}
+const tiles = {
+  "1A": { isOccupied: true, adjacentTiles: ["2A", "1B"] },
+  "2A": { isOccupied: true, adjacentTiles: ["1A", "2B"] },
+  "1B": { isOccupied: false, adjacentTiles: ["1A"] },
+  "2B": { isOccupied: true, adjacentTiles: ["1A"] },
+};
 
-const getAdjacentTiles = (data, currTile, visited = {}) => {
-  if (!data[currTile].isOccupied || visited[currTile]) return;
+const getAdjacentTiles = (tiles, currentTile, visitedTiles = {}) => {
+  const adjacentTiles = tiles[currentTile].adjacentTiles;
 
-  console.log(currTile);
-  visited[currTile] = true;
-  const connectedTiles = data[currTile].adjacentTiles;
-  connectedTiles.forEach(tile => {
-    return getAdjacentTiles(data, tile, visited);
+  if (!tiles[currentTile].isOccupied || visitedTiles[currentTile]) {
+    return;
+  }
+  
+  console.log(currentTile);
+  visitedTiles[currentTile] = true;
+
+  adjacentTiles.forEach((currentTile) => {
+    return getAdjacentTiles(tiles, currentTile, visitedTiles);
   });
-}
+};
 
-getAdjacentTiles(data, '2A');
+getAdjacentTiles(tiles, "2A");
